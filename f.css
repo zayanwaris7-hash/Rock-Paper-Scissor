@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    background: linear-gradient(135deg, #f5f1e8, #e9e2d0);
+}
+
+/* Heading */
+h1 {
+    background: linear-gradient(90deg, #081b31, #0d2e52);
+    color: beige;
+    height: 5rem;
+    line-height: 5rem;
+    font-size: 2rem;
+    letter-spacing: 1px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+}
+
+/* Buttons */
+button {
+    height: 60px;
+    width: 120px;
+    border-radius: 15px;
+    border: none;
+    font-size: 1rem;
+    font-weight: 600;
+    background: beige;
+    color: #081b31;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+    transition: all 0.25s ease;
+}
+
+button:hover {
+    cursor: pointer;
+    background: #081b31;
+    color: beige;
+    transform: translateY(-4px) scale(1.05);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+}
+
+/* Choices container */
+.choices {
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+
+/* Labels (Rock / Paper / Scissor text) */
+.names {
+    margin-top: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4.5rem;
+    font-weight: 600;
+    color: #081b31;
+}
+
+/* Score container */
+.sc {
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #081b31;
+}
+
+/* Status area */
+.status {
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#status1 {
+    background: linear-gradient(90deg, #081b31, #0d2e52);
+    color: beige;
+    height: 5rem;
+    width: 40rem;
+    line-height: 5rem;
+    border-radius: 15px;
+    font-size: 1.1rem;
+    font-weight: 500;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+    transition: transform 0.2s ease;
+}
+
+#status1:hover {
+    transform: scale(1.02);
+}
